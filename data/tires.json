@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Normal",
+        "image": "images/tires/Normal.png"
+    },
+    {
+        "name": "Monster",
+        "image": "images/tires/Monster.png"
+    },
+    {
+        "name": "Roller",
+        "image": "images/tires/Roller.png"
+    },
+    {
+        "name": "Slim",
+        "image": "images/tires/Slim.png"
+    },
+    {
+        "name": "Slick",
+        "image": "images/tires/Slick.png"
+    },
+    {
+        "name": "Metal",
+        "image": "images/tires/Metal.png"
+    },
+    {
+        "name": "Button",
+        "image": "images/tires/Button.png"
+    },
+    {
+        "name": "Off-Road",
+        "image": "images/tires/Off-Road.png"
+    },
+    {
+        "name": "Sponge",
+        "image": "images/tires/Sponge.png"
+    },
+    {
+        "name": "Wooden",
+        "image": "images/tires/Wooden.png"
+    },
+    {
+        "name": "Cushion",
+        "image": "images/tires/Cushion.png"
+    },
+    {
+        "name": "Normal Blue",
+        "image": "images/tires/Normal_Blue.png"
+    },
+    {
+        "name": "Funky Monster",
+        "image": "images/tires/Funky_Monster.png"
+    },
+    {
+        "name": "Azure Roller",
+        "image": "images/tires/Azure_Roller.png"
+    },
+    {
+        "name": "Crimson Slim",
+        "image": "images/tires/Crimson_Slim.png"
+    },
+    {
+        "name": "Cyber Slick",
+        "image": "images/tires/Cyber_Slick.png"
+    },
+    {
+        "name": "Retro Off-Road",
+        "image": "images/tires/Retro_Off-Road.png"
+    },
+    {
+        "name": "GLA Wheels",
+        "image": "images/tires/GLA_Wheels.png"
+    },
+    {
+        "name": "Triforce Tyres",
+        "image": "images/tires/Triforce_Tyres.png"
+    },
+    {
+        "name": "Ancient Tyres",
+        "image": "images/tires/Ancient_Tyres.png"
+    },
+    {
+        "name": "Leaf Tyres",
+        "image": "images/tires/Leaf_Tyres.png"
+    }
+]

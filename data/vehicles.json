@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Standard Kart",
+        "image": "images/vehicles/Standard_Kart.png"
+    },
+    {
+        "name": "Pipe Frame",
+        "image": "images/vehicles/Pipe_Frame.png"
+    },
+    {
+        "name": "Mach 8",
+        "image": "images/vehicles/Mach_8.png"
+    },
+    {
+        "name": "Steel Driver",
+        "image": "images/vehicles/Steel_Driver.png"
+    },
+    {
+        "name": "Cat Cruiser",
+        "image": "images/vehicles/Cat_Cruiser.png"
+    },
+    {
+        "name": "Circuit Special",
+        "image": "images/vehicles/Circuit_Special.png"
+    },
+    {
+        "name": "Tri-Speeder",
+        "image": "images/vehicles/Tri-Speeder.png"
+    },
+    {
+        "name": "Badwagon",
+        "image": "images/vehicles/Badwagon.png"
+    },
+    {
+        "name": "Prancer",
+        "image": "images/vehicles/Prancer.png"
+    },
+    {
+        "name": "Buggybud",
+        "image": "images/vehicles/Buggybud.png"
+    },
+    {
+        "name": "Landship",
+        "image": "images/vehicles/Landship.png"
+    },
+    {
+        "name": "Bounder",
+        "image": "images/vehicles/Bounder.png"
+    },
+        {
+        "name": "Sports Coupé",
+        "image": "images/vehicles/Sports_Coupe.png"
+    },
+    {
+        "name": "GLA",
+        "image": "images/vehicles/GLA.png"
+    },
+    {
+        "name": "W 25 Silver Arrow",
+        "image": "images/vehicles/W_25_Silver_Arrow.png"
+    },
+    {
+        "name": "300 SL Roadster",
+        "image": "images/vehicles/300_SL_Roadster.png"
+    },
+    {
+        "name": "Blue Falcon",
+        "image": "images/vehicles/Blue_Falcon.png"
+    },
+    {
+        "name": "Tanooki Kart",
+        "image": "images/vehicles/Tanooki_Kart.png"
+    },
+    {
+        "name": "B Dasher",
+        "image": "images/vehicles/B_Dasher.png"
+    },
+    {
+        "name": "Streetle",
+        "image": "images/vehicles/Streetle.png"
+    },
+    {
+        "name": "P-Wing",
+        "image": "images/vehicles/P-Wing.png"
+    },
+    {
+        "name": "Koopa Clown",
+        "image": "images/vehicles/Koopa_Clown.png"
+    },
+    {
+        "name": "Standard Bike",
+        "image": "images/vehicles/Standard_Bike.png"
+    },
+    {
+        "name": "The Duke",
+        "image": "images/vehicles/The_Duke.png"
+    },
+    {
+        "name": "Flame Rider",
+        "image": "images/vehicles/Flame_Rider.png"
+    },
+    {
+        "name": "Varmint",
+        "image": "images/vehicles/Varmint.png"
+    },
+    {
+        "name": "Mr Scooty",
+        "image": "images/vehicles/Mr_Scooty.png"
+    },
+    {
+        "name": "Master Cycle Zero",
+        "image": "images/vehicles/Master_Cycle_Zero.png"
+    },
+    {
+        "name": "City Tripper",
+        "image": "images/vehicles/City_Tripper.png"
+    },
+    {
+        "name": "Comet",
+        "image": "images/vehicles/Comet.png"
+    },
+    {
+        "name": "Sport Bike",
+        "image": "images/vehicles/Sport_Bike.png"
+    },
+    {
+        "name": "Jet_Bike",
+        "image": "images/vehicles/Jet_Bike.png"
+    },
+    {
+        "name": "Yoshi_Bike",
+        "image": "images/vehicles/Yoshi_Bike.png"
+    },
+    {
+        "name": "Master Cycle",
+        "image": "images/vehicles/Master_Cycle.png"
+    },
+    {
+        "name": "Standard Quad",
+        "image": "images/vehicles/Standard_Quad.png"
+    },
+    {
+        "name": "Wild Wiggler",
+        "image": "images/vehicles/Wild_Wiggler.png"
+    },
+    {
+        "name": "Teddy Buggy",
+        "image": "images/vehicles/Teddy_Buggy.png"
+    },
+    {
+        "name": "Bone Rattler",
+        "image": "images/vehicles/Bone_Rattler.png"
+    },
+    {
+        "name": "Splat Buggy",
+        "image": "images/vehicles/Splat_Buggy.png"
+    },
+    {
+        "name": "Inkstriker",
+        "image": "images/vehicles/Inkstriker.png"
+    }
+]
