@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Mario Kart 8 Randomizer</title>
-</head>
-<body>
-    <div class="max-w-6xl mx-auto mt-10 p-4">
-        <h1 class="text-3xl font-bold underline">Mario Kart 8 Deluxe Randomizer</h1>
-
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <title>Mario Kart 8 Randomizer</title>
+    </head>
+    <body>
+        <div class="max-w-6xl mx-auto mt-10 p-4">
+            <h1 class="text-3xl">Mario Kart 8 Deluxe Randomizer</h1>
+            <p class="mb-5">Why choose the best combination for Mario Kart when you can let fate decide. Who doesn't want to see Bowser riding  the Teddy Buggy or Baby Mario on the Bone Rattler.
+                Maybe you get lucky and get the perfect combination on accident. Press the button below and see what combination you get!
+            </p>
+            <button id="randomizer" class="inline-flex items-center justify-center h-10 rounded-md bg-red-700 px-3 font-medium text-neutral-50 transition active:scale-97">
+                Get random combination
+            </button>
+            <div id="randomCombination" class="grid grid-cols-4 gap-4 m-5 mt-10 p-10 bg-gray-200 rounded-lg">
+                <div id="character" class="flex items-center flex-col">
+                    <span class="text-lg font-bold mb-3">Character</span>
+                    <img class="object-cover" src="images/characters/Baby_Daisy.png" alt="Baby_Daisy">
+                </div>
+                <div id="vehicle" class="flex items-center flex-col">
+                    <span class="text-lg font-bold mb-3">Vehicle</span>
+                    <img class="object-cover" src="images/vehicles/300_SL_Roadster.png" alt="300_SL_Roadster">
+                </div>
+                <div id="tires" class="flex items-center flex-col">
+                    <span class="text-lg font-bold mb-3">Tires</span>
+                    <img class="object-cover" src="images/tires/Ancient_Tyres.png" alt="Ancient_Tyres">
+                </div>
+                <div id="glider" class="flex items-center flex-col">
+                    <span class="text-lg font-bold mb-3">Glider</span>
+                    <img class="object-cover" src="images/gliders/Bowser_Kite.png" alt="Bowser_Kite">
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
