@@ -1,58 +1,58 @@
 [
     {
         "name": "Super Glider",
-        "image": "images/gliders/Super_Glider.png"
+        "image": "Super_Glider.png"
     },
     {
         "name": "Cloud Glider",
-        "image": "images/gliders/Cloud_Glider.png"
+        "image": "Cloud_Glider.png"
     },
     {
         "name": "Wario Wing",
-        "image": "images/gliders/Wario_Wing.png"
+        "image": "Wario_Wing.png"
     },
     {
         "name": "Waddle Wing",
-        "image": "images/gliders/Wadlle_Wing.png"
+        "image": "Waddle_Wing.png"
     },
     {
         "name": "Peach Parasol",
-        "image": "images/gliders/Peach_Parasol.png"
+        "image": "Peach_Parasol.png"
     },
     {
         "name": "Parachute",
-        "image": "images/gliders/Parachute.png"
+        "image": "Parachute.png"
     },
     {
         "name": "Parafoil",
-        "image": "images/gliders/Parafoil.png"
+        "image": "Parafoil.png"
     },
     {
         "name": "Flower Glider",
-        "image": "images/gliders/Flower_Glider.png"
+        "image": "Flower_Glider.png"
     },
     {
         "name": "Bowser Kite",
-        "image": "images/gliders/Bowser_Kite.png"
+        "image": "Bowser_Kite.png"
     },
     {
         "name": "Plane Glider",
-        "image": "images/gliders/Plane_Glider.png"
+        "image": "Plane_Glider.png"
     },
     {
         "name": "MKTV Parafoil",
-        "image": "images/gliders/MKTV_Parafoil.png"
+        "image": "MKTV_Parafoil.png"
     },
     {
         "name": "Hylian Kite",
-        "image": "images/gliders/Hylian_Kite.png"
+        "image": "Hylian_Kite.png"
     },
     {
         "name": "Paraglider",
-        "image": "images/gliders/Paraglider.png"
+        "image": "Paraglider.png"
     },
     {
         "name": "Paper Glider",
-        "image": "images/gliders/Paper_Glider.png"
+        "image": "Paper_Glider.png"
     }
 ]

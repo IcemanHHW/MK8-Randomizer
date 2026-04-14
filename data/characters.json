@@ -1,222 +1,222 @@
 [
     {
         "name": "Mario",
-        "image": "images/characters/Mario.png"
+        "image": "Mario.png"
     },
     {
         "name": "Luigi",
-        "image": "images/characters/Luigi.png"
+        "image": "Luigi.png"
     },
     {
         "name": "Peach",
-        "image": "images/characters/Peach.png"
+        "image": "Peach.png"
     },
     {
         "name": "Daisy",
-        "image": "images/characters/Daisy.png"
+        "image": "Daisy.png"
     },
     {
         "name": "Rosalina",
-        "image": "images/characters/Rosalina.png"
+        "image": "Rosalina.png"
     },
     {
         "name": "Tanooki Mario",
-        "image": "images/characters/Tanooki_Mario.png"
+        "image": "Tanooki_Mario.png"
     },
     {
         "name": "Cat Peach",
-        "image": "images/characters/Cat_Peach.png"
+        "image": "Cat_Peach.png"
     },
     {
         "name": "Birdo",
-        "image": "images/characters/Birdo.png"
+        "image": "Birdo.png"
     },
     {
         "name": "Yoshi",
-        "image": "images/characters/Yoshi.png"
+        "image": "Yoshi.png"
     },
     {
         "name": "Toad",
-        "image": "images/characters/Toad.png"
+        "image": "Toad.png"
     },
     {
         "name": "Koopa Troopa",
-        "image": "images/characters/Koopa_Troopa.png"
+        "image": "Koopa_Troopa.png"
     },
     {
         "name": "Shy Guy",
-        "image": "images/characters/Shy_Guy.png"
+        "image": "Shy_Guy.png"
     },
     {
         "name": "Lakitu",
-        "image": "images/characters/Lakitu.png"
+        "image": "Lakitu.png"
     },
     {
         "name": "Toadette",
-        "image": "images/characters/Toadette.png"
+        "image": "Toadette.png"
     },
     {
         "name": "King Boo",
-        "image": "images/characters/King_Boo.png"
+        "image": "King_Boo.png"
     },
     {
         "name": "Petey Piranha",
-        "image": "images/characters/Petey_Piranha.png"
+        "image": "Petey_Piranha.png"
     },
     {
         "name": "Baby_Mario",
-        "image": "images/characters/Baby_Mario.png"
+        "image": "Baby_Mario.png"
     },
     {
         "name": "Baby Luigi",
-        "image": "images/characters/Baby_Luigi.png"
+        "image": "Baby_Luigi.png"
     },
     {
         "name": "Baby Peach",
-        "image": "images/characters/Baby_Peach.png"
+        "image": "Baby_Peach.png"
     },
     {
         "name": "Baby Daisy",
-        "image": "images/characters/Baby_Daisy.png"
+        "image": "Baby_Daisy.png"
     },
     {
         "name": "Baby Rosalina",
-        "image": "images/characters/Baby_Rosalina.png"
+        "image": "Baby_Rosalina.png"
     },
     {
         "name": "Metal Mario",
-        "image": "images/characters/Metal_Mario.png"
+        "image": "Metal_Mario.png"
     },
     {
         "name": "Pink Gold Peach",
-        "image": "images/characters/Pink_Gold_Peach.png"
+        "image": "Pink_Gold_Peach.png"
     },
     {
         "name": "Wiggler",
-        "image": "images/characters/Wiggler.png"
+        "image": "Wiggler.png"
     },
     {
         "name": "Wario",
-        "image": "images/characters/Wario.png"
+        "image": "Wario.png"
     },
     {
         "name": "Waluigi",
-        "image": "images/characters/Waluigi.png"
+        "image": "Waluigi.png"
     },
     {
         "name": "Donkey Kong",
-        "image": "images/characters/Donkey_Kong.png"
+        "image": "Donkey_Kong.png"
     },
     {
         "name": "Bowser",
-        "image": "images/characters/Bowser.png"
+        "image": "Bowser.png"
     },
     {
         "name": "Dry Bones",
-        "image": "images/characters/Dry Bones.png"
+        "image": "Dry Bones.png"
     },
     {
         "name": "Bowser Jr.",
-        "image": "images/characters/Bowser_Jr.png"
+        "image": "Bowser_Jr.png"
     },
     {
         "name": "Dry Bowser",
-        "image": "images/characters/Dry_Bowser.png"
+        "image": "Dry_Bowser.png"
     },
     {
         "name": "Kamek",
-        "image": "images/characters/Kamek.png"
+        "image": "Kamek.png"
     },
     {
         "name": "Lemmy",
-        "image": "images/characters/Lemmy.png"
+        "image": "Lemmy.png"
     },
     {
         "name": "Larry",
-        "image": "images/characters/Larry.png"
+        "image": "Larry.png"
     },
     {
         "name": "Wendy",
-        "image": "images/characters/Wendy.png"
+        "image": "Wendy.png"
     },
     {
         "name": "Ludwig",
-        "image": "images/characters/Ludwig.png"
+        "image": "Ludwig.png"
     },
     {
         "name": "Iggy",
-        "image": "images/characters/Iggy.png"
+        "image": "Iggy.png"
     },
     {
         "name": "Roy",
-        "image": "images/characters/Roy.png"
+        "image": "Roy.png"
     },
     {
         "name": "Morton",
-        "image": "images/characters/Morton.png"
+        "image": "Morton.png"
     },
     {
         "name": "Peachette",
-        "image": "images/characters/Peachette.png"
+        "image": "Peachette.png"
     },
     {
         "name": "Inkling Girl 1",
-        "image": "images/characters/Inkling_Girl_1.png"
+        "image": "Inkling_Girl_1.png"
     },
     {
         "name": "Inkling Girl 2",
-        "image": "images/characters/Inkling_Girl_2.png"
+        "image": "Inkling_Girl_2.png"
     },
     {
-        "name": "Inkling_Girl_3",
-        "image": "images/characters/Inkling_Girl_3.png"
+        "name": "Inkling Girl_3",
+        "image": "Inkling_Girl_3.png"
     },
     {
         "name": "Inkling Boy 1",
-        "image": "images/characters/Inkling_Boy_1.png"
+        "image": "Inkling_Boy_1.png"
     },
     {
         "name": "Inkling Boy 2",
-        "image": "images/characters/Inkling_Boy_2.png"
+        "image": "Inkling_Boy_2.png"
     },
     {
         "name": "Inkling Boy 3",
-        "image": "images/characters/Inkling_Boy_3.png"
+        "image": "Inkling_Boy_3.png"
     },
     {
         "name": "Villager Boy",
-        "image": "images/characters/Villager_Boy.png"
+        "image": "Villager_Boy.png"
     },
     {
         "name": "Villager Girl",
-        "image": "images/characters/Villager_Girl.png"
+        "image": "Villager_Girl.png"
     },
     {
         "name": "Isabelle",
-        "image": "images/characters/Isabelle.png"
+        "image": "Isabelle.png"
     },
     {
         "name": "Link 1",
-        "image": "images/characters/Link_1.png"
+        "image": "Link_1.png"
     },
     {
         "name": "Link 2",
-        "image": "images/characters/Link_2.png"
+        "image": "Link_2.png"
     },
     {
         "name": "Diddy Kong",
-        "image": "images/characters/Diddy_Kong.png"
+        "image": "Diddy_Kong.png"
     },
     {
-        "name": "Funky_Kong",
-        "image": "images/characters/Funky_Kong.png"
+        "name": "Funky Kong",
+        "image": "Funky_Kong.png"
     },
     {
         "name": "Pauline",
-        "image": "images/characters/Pauline.png"
+        "image": "Pauline.png"
     },
     {
         "name": "Mii",
-        "image": "images/characters/Mii.png"
+        "image": "Mii.png"
     }
 ]

@@ -1,86 +1,86 @@
 [
     {
         "name": "Normal",
-        "image": "images/tires/Normal.png"
+        "image": "Normal.png"
     },
     {
         "name": "Monster",
-        "image": "images/tires/Monster.png"
+        "image": "Monster.png"
     },
     {
         "name": "Roller",
-        "image": "images/tires/Roller.png"
+        "image": "Roller.png"
     },
     {
         "name": "Slim",
-        "image": "images/tires/Slim.png"
+        "image": "Slim.png"
     },
     {
         "name": "Slick",
-        "image": "images/tires/Slick.png"
+        "image": "Slick.png"
     },
     {
         "name": "Metal",
-        "image": "images/tires/Metal.png"
+        "image": "Metal.png"
     },
     {
         "name": "Button",
-        "image": "images/tires/Button.png"
+        "image": "Button.png"
     },
     {
         "name": "Off-Road",
-        "image": "images/tires/Off-Road.png"
+        "image": "Off-Road.png"
     },
     {
         "name": "Sponge",
-        "image": "images/tires/Sponge.png"
+        "image": "Sponge.png"
     },
     {
         "name": "Wooden",
-        "image": "images/tires/Wooden.png"
+        "image": "Wooden.png"
     },
     {
         "name": "Cushion",
-        "image": "images/tires/Cushion.png"
+        "image": "Cushion.png"
     },
     {
         "name": "Normal Blue",
-        "image": "images/tires/Normal_Blue.png"
+        "image": "Normal_Blue.png"
     },
     {
         "name": "Funky Monster",
-        "image": "images/tires/Funky_Monster.png"
+        "image": "Funky_Monster.png"
     },
     {
         "name": "Azure Roller",
-        "image": "images/tires/Azure_Roller.png"
+        "image": "Azure_Roller.png"
     },
     {
         "name": "Crimson Slim",
-        "image": "images/tires/Crimson_Slim.png"
+        "image": "Crimson_Slim.png"
     },
     {
         "name": "Cyber Slick",
-        "image": "images/tires/Cyber_Slick.png"
+        "image": "Cyber_Slick.png"
     },
     {
         "name": "Retro Off-Road",
-        "image": "images/tires/Retro_Off-Road.png"
+        "image": "Retro_Off-Road.png"
     },
     {
         "name": "GLA Wheels",
-        "image": "images/tires/GLA_Wheels.png"
+        "image": "GLA_Wheels.png"
     },
     {
         "name": "Triforce Tyres",
-        "image": "images/tires/Triforce_Tyres.png"
+        "image": "Triforce_Tyres.png"
     },
     {
         "name": "Ancient Tyres",
-        "image": "images/tires/Ancient_Tyres.png"
+        "image": "Ancient_Tyres.png"
     },
     {
         "name": "Leaf Tyres",
-        "image": "images/tires/Leaf_Tyres.png"
+        "image": "Leaf_Tyres.png"
     }
 ]
