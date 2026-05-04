@@ -3,40 +3,45 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="images/question-mark-icon.png">
         <link href="style.css" rel="stylesheet">
         <title>Mario Kart 8 Randomizer</title>
     </head>
-    <body>
-        <div class="max-w-6xl mx-auto mt-10 p-4">
+    <body class="bg-[url(/images/background.png)] bg-cover py-5">
+        <div class="max-w-7xl min-h-[calc(100vh-2.5rem)] mx-auto py-10 px-7 bg-white/95 rounded-lg">
             <h1 class="text-3xl">Mario Kart 8 Deluxe Randomizer</h1>
-            <p class="mb-5">Why choose the best combination for Mario Kart when you can let fate decide. Who doesn't want to see Bowser riding  the Teddy Buggy or Baby Mario on the Bone Rattler.
+            <p class="mb-15">Why choose the best combination for Mario Kart when you can let fate decide. Who doesn't want to see Bowser riding  the Teddy Buggy or Baby Mario on the Bone Rattler.
                 Maybe you get lucky and get the perfect combination on accident. Press the button below and see what combination you get!
             </p>
             <button id="randomizer" class="inline-flex items-center justify-center h-10 rounded-md bg-red-700 px-3 font-medium text-neutral-50 transition active:scale-97">
                 Get random combination
             </button>
-            <div id="randomCombination" class="grid grid-cols-4 gap-4 mt-10 p-10 bg-gray-200 rounded-lg">
+            <div id="randomCombination" class="grid @max-md:grid-rows-4 md:grid-cols-4 gap-4  mt-12 p-10 bg-gray-200 rounded-lg">
                 <div id="character" class="flex items-center flex-col">
                     <span class="text-lg font-bold mb-3">Character</span>
-                    <span class="name">?????</span>
+                    <span class="name mb-1">?????</span>
                     <img class="object-cover transition-opacity duration-200 will-change-[opacity]" src="images/question-mark-icon.png" alt="?????">
                 </div>
                 <div id="vehicle" class="flex items-center flex-col">
                     <span class="text-lg font-bold mb-3">Vehicle</span>
-                    <span class="name">?????</span>
+                    <span class="name mb-1">?????</span>
                     <img class="object-cover transition-opacity duration-200 will-change-[opacity]" src="images/question-mark-icon.png" alt="?????">
                 </div>
                 <div id="tires" class="flex items-center flex-col">
                     <span class="text-lg font-bold mb-3">Tires</span>
-                    <span class="name">?????</span>
+                    <span class="name mb-1">?????</span>
                     <img class="object-cover transition-opacity duration-200 will-change-[opacity]" src="images/question-mark-icon.png" alt="?????">
                 </div>
                 <div id="glider" class="flex items-center flex-col">
                     <span class="text-lg font-bold mb-3">Glider</span>
-                    <span class="name">?????</span>
+                    <span class="name mb-1">?????</span>
                     <img class="object-cover transition-opacity duration-200 will-change-[opacity]" src="images/question-mark-icon.png" alt="?????">
                 </div>
             </div>
+            <footer class="text-xs text-gray-500 text-center mt-15 flex items-center flex-col">
+                <span>Fan project for Mario Kart 8 Deluxe. All images and names used belong to Nintendo</span>
+                <span>Made by <a class="underline" href="https://github.com/IcemanHHW/" target="_blank">IcemanHHW</a></span>
+            </footer>
         </div>
         <script src="script.js"></script>
     </body>
