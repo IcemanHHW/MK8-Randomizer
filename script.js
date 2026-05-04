@@ -30,22 +30,22 @@ function delay(ms) {
 function preloadImages() {
     data.characters.forEach(item => {
         const img = new Image();
-        img.src = `images/characters/${item.image}`;
+        img.src = `/images/characters/${item.image}`;
     });
 
     data.vehicles.forEach(item => {
         const img = new Image();
-        img.src = `images/vehicles/${item.image}`;
+        img.src = `/images/vehicles/${item.image}`;
     });
 
     data.tires.forEach(item => {
         const img = new Image();
-        img.src = `images/tires/${item.image}`;
+        img.src = `/images/tires/${item.image}`;
     });
 
     data.gliders.forEach(item => {
         const img = new Image();
-        img.src = `images/gliders/${item.image}`;
+        img.src = `/images/gliders/${item.image}`;
     });
 }
 
@@ -55,10 +55,10 @@ function preloadImages() {
 async function loadJsonData() {
     try {
         const [characters, vehicles, tires, gliders] = await Promise.all([
-            fetch('./data/characters.json').then(r => r.json()),
-            fetch('./data/vehicles.json').then(r => r.json()),
-            fetch('./data/tires.json').then(r => r.json()),
-            fetch('./data/gliders.json').then(r => r.json())
+            fetch('/data/characters.json').then(r => r.json()),
+            fetch('/data/vehicles.json').then(r => r.json()),
+            fetch('/data/tires.json').then(r => r.json()),
+            fetch('/data/gliders.json').then(r => r.json())
         ]);
 
         data.characters = characters;
@@ -66,7 +66,7 @@ async function loadJsonData() {
         data.tires = tires;
         data.gliders = gliders;
 
-        preloadImages();
+        setTimeout(preloadImages, 100);
 
         randomizer.disabled = false;
     } catch (error) {
@@ -82,10 +82,10 @@ function setPulsingState(container, pulsing) {
     const name = container.querySelector('.name');
 
     if(pulsing) {
-        img.classList.add('animate-pulse', 'opicity-50');
+        img.classList.add('animate-pulse', 'opacity-50');
         name.classList.add('animate-pulse', 'text-gray-400');   
     } else {
-        img.classList.remove('animate-pulse', 'opicity-50');
+        img.classList.remove('animate-pulse', 'opacity-50');
         name.classList.remove('animate-pulse', 'text-gray-400');
     }
 }
@@ -106,7 +106,7 @@ function updateRandomCombinationDivs(container, item, folder) {
     img.classList.add('opacity-0');
 
     setTimeout(() => {
-        img.src = `images/${folder}/${item.image}`;
+        img.src = `/images/${folder}/${item.image}`;
         img.alt = item.name;
         name.textContent = item.name;
 
