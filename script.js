@@ -12,15 +12,45 @@ let data = {
     gliders: []
 }
 
+let isPulsing = false;
+
 randomizer.disabled = true;
 
 function helperGetRandom(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
 
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+/**
+ * Preload all images to prevent delay on first render
+ */
+function preloadImages() {
+    data.characters.forEach(item => {
+        const img = new Image();
+        img.src = `images/characters/${item.image}`;
+    });
+
+    data.vehicles.forEach(item => {
+        const img = new Image();
+        img.src = `images/vehicles/${item.image}`;
+    });
+
+    data.tires.forEach(item => {
+        const img = new Image();
+        img.src = `images/tires/${item.image}`;
+    });
+
+    data.gliders.forEach(item => {
+        const img = new Image();
+        img.src = `images/gliders/${item.image}`;
+    });
+}
+
 /**
  * Loads all game data from JSON files in parallel.
- * Enables UI interaction once all datasets are successfully loaded.
  */
 async function loadJsonData() {
     try {
@@ -36,9 +66,27 @@ async function loadJsonData() {
         data.tires = tires;
         data.gliders = gliders;
 
+        preloadImages();
+
         randomizer.disabled = false;
     } catch (error) {
         console.error('Error loading data: ', error)
+    }
+}
+
+/**
+ * Toggles subtle loading animation
+ */
+function setPulsingState(container, pulsing) {
+    const img = container.querySelector('img');
+    const name = container.querySelector('.name');
+
+    if(pulsing) {
+        img.classList.add('animate-pulse', 'opicity-50');
+        name.classList.add('animate-pulse', 'text-gray-400');   
+    } else {
+        img.classList.remove('animate-pulse', 'opicity-50');
+        name.classList.remove('animate-pulse', 'text-gray-400');
     }
 }
 
@@ -54,22 +102,50 @@ function updateRandomCombinationDivs(container, item, folder) {
     const img = container.querySelector('img');
     const name = container.querySelector('.name');
 
-    img.src = `images/${folder}/${item.image}`;
-    img.alt = item.name;
-    name.textContent = item.name;
+    img.classList.remove('opacity-100');
+    img.classList.add('opacity-0');
+
+    setTimeout(() => {
+        img.src = `images/${folder}/${item.image}`;
+        img.alt = item.name;
+        name.textContent = item.name;
+
+        img.classList.remove('opacity-0');
+        img.classList.add('opacity-100');
+    }, 150);
 }
 
 /**
- * Generates a full random loadout and updates the UI.
- * Ensures all categories are populated before rendering.
+ * Generates a random combination with a short animation delay
  */
-function getRandomCombination() {
-    if (!data.characters.length) return;
+async function getRandomCombination() {
+    if (isPulsing || !data.characters.length) return;
 
+    isPulsing =  true;
+    randomizer.disabled = true;
+
+    setPulsingState(characterDiv, true);
+    setPulsingState(vehicleDiv, true);
+    setPulsingState(tiresDiv, true);
+    setPulsingState(gliderDiv, true);
+
+    await delay(1500);
     updateRandomCombinationDivs(characterDiv, helperGetRandom(data.characters), 'characters');
+    await delay(500);
     updateRandomCombinationDivs(vehicleDiv, helperGetRandom(data.vehicles), 'vehicles');
+    await delay(500);
     updateRandomCombinationDivs(tiresDiv, helperGetRandom(data.tires), 'tires');
-    updateRandomCombinationDivs(gliderDiv, helperGetRandom(data.gliders), 'gliders')
+    await delay(500);
+    updateRandomCombinationDivs(gliderDiv, helperGetRandom(data.gliders), 'gliders');
+    await delay(250);
+
+    setPulsingState(characterDiv, false);
+    setPulsingState(vehicleDiv, false);
+    setPulsingState(tiresDiv, false);
+    setPulsingState(gliderDiv, false);
+
+    isPulsing = false;
+    randomizer.disabled = false;
 }
 
 randomizer.addEventListener("click", getRandomCombination);
