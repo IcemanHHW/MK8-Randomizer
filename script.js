@@ -12,8 +12,9 @@ let data = {
     gliders: []
 }
 
-let isPulsing = false;
+const BASE = import.meta.env.BASE_URL;
 
+let isPulsing = false;
 randomizer.disabled = true;
 
 function helperGetRandom(arr) {
@@ -30,22 +31,22 @@ function delay(ms) {
 function preloadImages() {
     data.characters.forEach(item => {
         const img = new Image();
-        img.src = `/images/characters/${item.image}`;
+        img.src = `${BASE}images/characters/${item.image}`;
     });
 
     data.vehicles.forEach(item => {
         const img = new Image();
-        img.src = `/images/vehicles/${item.image}`;
+        img.src = `${BASE}images/vehicles/${item.image}`;
     });
 
     data.tires.forEach(item => {
         const img = new Image();
-        img.src = `/images/tires/${item.image}`;
+        img.src = `${BASE}images/tires/${item.image}`;
     });
 
     data.gliders.forEach(item => {
         const img = new Image();
-        img.src = `/images/gliders/${item.image}`;
+        img.src = `${BASE}images/gliders/${item.image}`;
     });
 }
 
@@ -55,10 +56,10 @@ function preloadImages() {
 async function loadJsonData() {
     try {
         const [characters, vehicles, tires, gliders] = await Promise.all([
-            fetch('/data/characters.json').then(r => r.json()),
-            fetch('/data/vehicles.json').then(r => r.json()),
-            fetch('/data/tires.json').then(r => r.json()),
-            fetch('/data/gliders.json').then(r => r.json())
+            fetch(`${BASE}data/characters.json`).then(r => r.json()),
+            fetch(`${BASE}data/vehicles.json`).then(r => r.json()),
+            fetch(`${BASE}data/tires.json`).then(r => r.json()),
+            fetch(`${BASE}data/gliders.json`).then(r => r.json())
         ]);
 
         data.characters = characters;
@@ -106,7 +107,7 @@ function updateRandomCombinationDivs(container, item, folder) {
     img.classList.add('opacity-0');
 
     setTimeout(() => {
-        img.src = `/images/${folder}/${item.image}`;
+        img.src = `${BASE}images/${folder}/${item.image}`;
         img.alt = item.name;
         name.textContent = item.name;
 
